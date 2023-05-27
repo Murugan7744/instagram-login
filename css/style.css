@@ -1,0 +1,152 @@
+*{
+	
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	
+}
+
+@media (min-width:320px){
+ .play-1>img{
+	max-width:100%;
+	height:auto;
+	
+	
+ }
+}
+
+@media (min-width:620px){
+ .insta-cont {
+		gap:10px !important;
+	}
+.play-1>img{
+	max-width:100%;
+	height:auto;
+ } 
+}
+
+@media (min-width:1000px){
+	.insta-cont {
+		gap: !important;
+	}
+.play-1>img{
+	max-width:100%;
+	height:auto;
+}
+  .insta-ul{
+	display:flex;
+    gap:1%;
+  }
+
+}
+
+
+
+
+
+
+
+
+#insta{
+	background-color:#ffff;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	position:relative;
+	height:auto;
+	margin-top:70px;
+}
+.logo{
+    background-image:url("../images/logo.png");
+    background-size: cover;
+    max-width: 100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+    height:155px;
+	                                       
+}
+	
+.insta-icon>a>i{
+	color:#06105F ;
+	background-color: ;
+	font-size:35px;
+}
+.insta-cont>h4>a{
+	text-decoration:none;
+	color:#06105F ;
+}
+.play>img{
+	max-width:100%;
+	height:auto;
+	width:100%;
+}
+ul>li,a{
+	list-style-type:none;
+	position:relative;
+	display:flex;
+}
+ul>li>a{
+	text-decoration:none;
+	display:flex;
+}
+ul>li>a::after{
+	position:absolute;
+	content:"";
+	top:20px;
+	left:0px;
+	display:block;
+	height:1px;
+	width:0;
+	background-color:red;	
+}
+ul>li>a:hover::after{
+	width:100%;
+	background-color:#060606 ;
+}
+
+.insta-qus>p>a{
+	position:relative;
+}
+.insta-qus>p>a::after{
+	position:absolute;
+	top:20px;
+	left:0;
+	width:0;
+	height:2px;
+	content:"";
+	display:block;
+	background-color:red;
+	
+}
+.insta-qus>p>a:hover::after{
+      width:100%;
+	  background-color:#0A66A4;
+}
+.or{
+ position:relative;
+}
+.or::after{
+			   content:"";
+			display:block;
+			height:2px ;
+			width:130px;
+			position:absolute;
+			top:50%;
+			right:30px;
+			background-color:#c5c5c5;
+			
+}   
+.or{
+ position:relative;
+}
+.or::before{
+   content:"";
+display:block;
+height:2px ;
+width:130px;
+position:absolute;
+top:50%;
+left:30px;
+background-color:#c5c5c5;
+}
